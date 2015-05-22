@@ -1,4 +1,4 @@
-package Howest.NMCT.opdracht.chilltips;
+package be.howest.nmct.chilltips;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

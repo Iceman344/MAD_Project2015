@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="be.howest.nmct.chilltips.AddTipFragment"
+    android:padding="25dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txb_title"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="Add a title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:ems="10"
+        android:gravity="top|left"
+        android:id="@+id/txb_desc"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/txb_title"
+        android:layout_alignStart="@+id/txb_title"
+        android:layout_marginTop="37dp"
+        android:layout_alignEnd="@+id/txb_title"
+        android:text="Add a description"
+        android:background="@color/cardview_light_background"
+        android:autoText="false"
+        android:textColor="@color/cardview_dark_background" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Photo"
+        android:id="@+id/btn_takephoto"
+        android:layout_below="@+id/txb_desc"
+        android:layout_marginTop="40dp"
+        android:layout_alignEnd="@+id/txb_desc"
+        android:layout_alignStart="@+id/txb_desc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Chilltip"
+        android:id="@+id/btn_savechilltip"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

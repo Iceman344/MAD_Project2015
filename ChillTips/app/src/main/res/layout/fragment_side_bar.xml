@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffffff"
+        tools:context="be.howest.nmct.chilltips.SideBarFragment"
+    android:padding="10dp">
+
+        <TextView android:layout_width="match_parent" android:padding="10dp" android:layout_height="match_parent"
+            android:text="Menu's :" android:id="@+id/TextView2"
+            android:textColor="@color/cardview_dark_background" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        android:id="@+id/btn_overview"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add ChillTip"
+        android:id="@+id/btn_addchill"
+        android:layout_below="@+id/btn_overview"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
